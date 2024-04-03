@@ -123,7 +123,7 @@ p {
 
 .btn {
   text-transform: uppercase;
-  background: var(--clr-primary-5);
+  background: blue;
   color: var(--clr-white);
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
@@ -138,6 +138,9 @@ p {
 .btn:hover {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
+}
+body {
+  background-color: blue;
 }
 /* section */
 .section {
